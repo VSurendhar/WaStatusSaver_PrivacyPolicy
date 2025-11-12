@@ -1,0 +1,54 @@
+body {
+  background-color: rgba(0, 127, 104, 0.15);
+  margin: 0px;
+  padding: 5vh;
+  font-family: "Poppins";
+}
+
+#privacyPolicyImg {
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  margin: 0 auto;
+  min-height: 80px;
+  max-height: 150px;
+  min-width: 80px;
+  max-width: 150px;
+  object-fit: contain;
+}
+
+#privacyPolicy > h1 {
+  text-align: center;
+  color: rgb(0, 127, 104);
+}
+
+h1 {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+#privacyPolicy {
+  color: #3d3d3d;
+}
+
+.ppSection > h2 {
+  display: block;
+  font-size: 1.4rem;
+  color: rgb(0, 127, 104);
+
+  font-weight: 450;
+  margin: 0rem;
+}
+
+#privacyPolicy > p > b {
+  color: rgb(0, 127, 104);
+}
+
+.ppSection > p {
+  display: block;
+  font-weight: 350;
+  color: #3d3d3d;
+  font-size: 0.9rem;
+}
