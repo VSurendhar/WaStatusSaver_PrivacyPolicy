@@ -1,54 +1,62 @@
 body {
-  background-color: rgba(0, 127, 104, 0.15);
-  margin: 0px;
-  padding: 5vh;
-  font-family: "Poppins";
+    background-color: rgba(0, 127, 104, 0.15);
+    margin: 0;
+    padding: 2vh;
+    font-family: "Poppins", sans-serif;
 }
 
 #privacyPolicyImg {
-  width: 20vw;
-  height: 20vw;
-  display: block;
-  margin: 0 auto;
-  min-height: 80px;
-  max-height: 150px;
-  min-width: 80px;
-  max-width: 150px;
-  object-fit: contain;
+    width: 20vw;
+    height: 20vw;
+    display: block;
+    margin: 0 auto;
+    min-height: 80px;
+    max-height: 150px;
+    min-width: 80px;
+    max-width: 150px;
+    object-fit: contain;
 }
 
 #privacyPolicy > h1 {
-  text-align: center;
-  color: rgb(0, 127, 104);
+    text-align: center;
+    color: rgb(0, 127, 104);
 }
 
 h1 {
-  display: block;
-  font-size: 2rem;
-  font-weight: 500;
-  margin: 0;
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
 }
 
 #privacyPolicy {
-  color: #3d3d3d;
+    color: #3d3d3d;
 }
 
 .ppSection > h2 {
-  display: block;
-  font-size: 1.4rem;
-  color: rgb(0, 127, 104);
+    display: block;
+    font-size: 1.4rem;
+    color: rgb(0, 127, 104);
 
-  font-weight: 450;
-  margin: 0rem;
+    font-weight: 450;
+    margin: 0;
 }
 
 #privacyPolicy > p > b {
-  color: rgb(0, 127, 104);
+    color: rgb(0, 127, 104);
 }
 
 .ppSection > p {
-  display: block;
-  font-weight: 350;
-  color: #3d3d3d;
-  font-size: 0.9rem;
+    display: block;
+    font-weight: 350;
+    color: #3d3d3d;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
